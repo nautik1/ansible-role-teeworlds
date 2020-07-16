@@ -1,0 +1,4 @@
+---
+teeworlds_server_name: my-teeworld-server
+teeworlds_version: 0.7.5
+install_path: /opt/teeworlds
