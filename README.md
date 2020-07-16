@@ -6,12 +6,12 @@ This role helps installing a Teeworlds server.
 Requirements
 ------------
 
-Any debian-based linux using systemd should work, preferably Ubuntu 18.04.
+Any debian-based linux using systemd should work, preferably Ubuntu 20.04.
 
 Tested with:
 - Teeworlds 0.7.5
 - Ansible 2.9.7
-- Ubuntu 18.04 on [Gandi Cloud](https://www.gandi.net/fr/cloud)
+- Ubuntu 20.04 on [Gandi Cloud](https://www.gandi.net/fr/cloud)
 
 Role Variables
 --------------
@@ -37,7 +37,7 @@ Sample playbook:
     - name: Install Teeworld
       hosts: all
       roles:
-        - teeworld
+        - teeworlds
 ```
 
 Sample inventory:
