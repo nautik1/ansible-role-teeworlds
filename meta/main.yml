@@ -1,0 +1,22 @@
+galaxy_info:
+  author: Nautik
+  description: This role helps installing a Teeworlds server.
+
+  license: MIT
+
+  min_ansible_version: 2.9
+
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+
+  galaxy_tags:
+    - teeworlds
+    - gaming
+    - game
+
+dependencies: []
