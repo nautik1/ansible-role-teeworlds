@@ -37,7 +37,7 @@ Sample playbook:
     - name: Install Teeworld
       hosts: all
       roles:
-        - teeworlds
+        - nautik1.teeworlds
 ```
 
 Sample inventory:
